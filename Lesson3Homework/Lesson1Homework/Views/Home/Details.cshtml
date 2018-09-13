@@ -1,0 +1,22 @@
+﻿@model Lesson1Homework.Models.EmployeeView
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details of @Model.FirstName @Model.Surname</title>
+</head>
+<body>
+    <p>@Model.FirstName</p>
+
+    <p>@Model.Patronymic</p>
+
+    <p>@Model.Surname</p>
+
+    <p>@Model.Age</p>
+
+    <p>@Html.ActionLink("Список", "Index")</p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Lesson1Homework.Models.EmployeeView>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    @section top{
+        @await Html.PartialAsync("Partial/_Slider");
+    }
+
+    <div class="row">
+        <div class="col-sm-3">
+            @await Html.PartialAsync("Partial/_LeftSidebar");
+        </div>
+
+        <div class="col-sm-9 padding-right">
+            @await Html.PartialAsync("Partial/_Featured");
+
+            @await Html.PartialAsync("Partial/_Category");
+
+            @await Html.PartialAsync("Partial/_Recommended");
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
