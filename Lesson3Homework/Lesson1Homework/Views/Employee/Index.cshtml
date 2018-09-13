@@ -1,4 +1,4 @@
-﻿@model 
+﻿@model IEnumerable<EmployeeView>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <title>EmployeeView</title>
 </head>
 <body>
-    <table>
+    <table border="1" width="80%" style="margin-left:auto; margin-right:auto">
         @foreach (var item in Model)
         {
             <tr>
