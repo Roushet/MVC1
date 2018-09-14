@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Lesson1Homework.1552838621.00" t="ExcludeRecursive" />
+    <e p="G:\HW-Repos\MVC1\Lesson3Homework" t="IncludeFlat">
+      <e p="Lesson1Homework" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="EmployeeController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="InMemory" t="Include">
+            <e p="InMemoryEmployees.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IEmployeesData.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Lesson1Homework.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="EmployeeView.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Lesson1Homework.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Employee" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="home" t="Include">
+            <e p="Details.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Partial" t="Include">
+              <e p="_Category.cshtml" t="Include" />
+              <e p="_Featured.cshtml" t="Include" />
+              <e p="_Footer.cshtml" t="Include" />
+              <e p="_Header.cshtml" t="Include" />
+              <e p="_LeftSidebar.cshtml" t="Include" />
+              <e p="_Recommended.cshtml" t="Include" />
+              <e p="_Slider.cshtml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="animate.css" t="Include" />
+            <e p="bootstrap.min.css" t="Include" />
+            <e p="font-awesome.min.css" t="Include" />
+            <e p="main.css" t="Include" />
+            <e p="prettyPhoto.css" t="Include" />
+            <e p="price-range.css" t="Include" />
+            <e p="responsive.css" t="Include" />
+          </e>
+          <e p="fonts" t="Include">
+            <e p="fontawesome-webfont.svg" t="Include" />
+            <e p="fontawesome-webfont.woff" t="Include" />
+            <e p="FontAwesome.otf" t="Include" />
+            <e p="glyphicons-halflings-regular.svg" t="Include" />
+            <e p="glyphicons-halflings-regular.woff" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="404" t="Include">
+              <e p="404.png" t="Include" />
+            </e>
+            <e p="blog" t="Include">
+              <e p="blog-one.jpg" t="Include" />
+              <e p="blog-three.jpg" t="Include" />
+              <e p="blog-two.jpg" t="Include" />
+              <e p="man-four.jpg" t="Include" />
+              <e p="man-one.jpg" t="Include" />
+              <e p="man-three.jpg" t="Include" />
+              <e p="man-two.jpg" t="Include" />
+              <e p="socials.png" t="Include" />
+            </e>
+            <e p="cart" t="Include">
+              <e p="one.png" t="Include" />
+              <e p="three.png" t="Include" />
+              <e p="two.png" t="Include" />
+            </e>
+            <e p="home" t="Include">
+              <e p="bg_border.png" t="Include" />
+              <e p="gallery1.jpg" t="Include" />
+              <e p="gallery2.jpg" t="Include" />
+              <e p="gallery3.jpg" t="Include" />
+              <e p="gallery4.jpg" t="Include" />
+              <e p="girl1.jpg" t="Include" />
+              <e p="girl2.jpg" t="Include" />
+              <e p="girl3.jpg" t="Include" />
+              <e p="iframe1.png" t="Include" />
+              <e p="iframe2.png" t="Include" />
+              <e p="iframe3.png" t="Include" />
+              <e p="iframe4.png" t="Include" />
+              <e p="logo.png" t="Include" />
+              <e p="map.png" t="Include" />
+              <e p="new.png" t="Include" />
+              <e p="partner1.png" t="Include" />
+              <e p="partner2.png" t="Include" />
+              <e p="partner3.png" t="Include" />
+              <e p="partner4.png" t="Include" />
+              <e p="pricing.png" t="Include" />
+              <e p="product1.jpg" t="Include" />
+              <e p="product2.jpg" t="Include" />
+              <e p="product3.jpg" t="Include" />
+              <e p="product4.jpg" t="Include" />
+              <e p="product5.jpg" t="Include" />
+              <e p="product6.jpg" t="Include" />
+              <e p="recommend1.jpg" t="Include" />
+              <e p="recommend2.jpg" t="Include" />
+              <e p="recommend3.jpg" t="Include" />
+              <e p="sale.png" t="Include" />
+              <e p="searchicon.png" t="Include" />
+              <e p="shipping.jpg" t="Include" />
+            </e>
+            <e p="product-details" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="new.jpg" t="Include" />
+              <e p="rating.png" t="Include" />
+              <e p="share.png" t="Include" />
+              <e p="similar1.jpg" t="Include" />
+              <e p="similar2.jpg" t="Include" />
+              <e p="similar3.jpg" t="Include" />
+            </e>
+            <e p="shop" t="Include">
+              <e p="advertisement.jpg" t="Include" />
+              <e p="product10.jpg" t="Include" />
+              <e p="product11.jpg" t="Include" />
+              <e p="product12.jpg" t="Include" />
+              <e p="product7.jpg" t="Include" />
+              <e p="product8.jpg" t="Include" />
+              <e p="product9.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="bootstrap.min.js" t="Include" />
+            <e p="contact.js" t="Include" />
+            <e p="gmaps.js" t="Include" />
+            <e p="html5shiv.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="jquery.prettyPhoto.js" t="Include" />
+            <e p="jquery.scrollUp.min.js" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="price-range.js" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Lesson1Homework.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

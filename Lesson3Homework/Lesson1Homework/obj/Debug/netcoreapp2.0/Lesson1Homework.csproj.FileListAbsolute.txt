@@ -41,3 +41,4 @@ G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1
 G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.AssemblyInfo.cs
 G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.dll
 G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.pdb
+G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.csprojAssemblyReference.cache
