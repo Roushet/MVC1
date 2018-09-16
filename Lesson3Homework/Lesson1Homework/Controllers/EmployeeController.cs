@@ -46,25 +46,33 @@ namespace Lesson1Homework.Controllers
 
 
         //перегрузка экшена эдит?
+        [HttpPost]
         [Route("edit/{id}")]
         public IActionResult Edit(EmployeeView employeeView)
         {
-            if (employeeView.Id > 0)
+            if(ModelState.IsValid == true)
             {
-                EmployeeView dbItem = _employees.GetById(employeeView.Id);
 
-                if (ReferenceEquals(dbItem, null))
-                    return NotFound();
+                if (employeeView.Id > 0)
+                {
+                    EmployeeView dbItem = _employees.GetById(employeeView.Id);
 
-                dbItem.FirstName = employeeView.FirstName;
-                dbItem.Patronymic = employeeView.Patronymic;
-                dbItem.Surname = employeeView.Surname;
-                dbItem.Age = employeeView.Age;
+                    if (ReferenceEquals(dbItem, null))
+                        return NotFound();
+
+                    dbItem.FirstName = employeeView.FirstName;
+                    dbItem.Patronymic = employeeView.Patronymic;
+                    dbItem.Surname = employeeView.Surname;
+                    dbItem.Age = employeeView.Age;
+                }
+                else
+                    //TODO разобраться чё мы тут добавляем, employeeView или dbItem
+                    _employees.AddNew(employeeView);
+                return RedirectToAction(nameof(Index));
+
             }
-            else
-                //TODO разобраться чё мы тут добавляем, employeeView или dbItem
-                _employees.AddNew(employeeView);
-            return RedirectToAction(nameof(Index));
+            //возврат на вью имени employeeView
+            return RedirectToAction(nameof(employeeView));
         }
 
     }

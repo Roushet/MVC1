@@ -5028,6 +5028,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "Homework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Homework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Homework.Domain.dll": {}
+        }
       }
     }
   },
@@ -13113,33 +13123,42 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "Homework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Homework.Domain/Homework.Domain.csproj",
+      "msbuildProject": "../Homework.Domain/Homework.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Homework.Domain >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
+      "projectUniqueName": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
       "projectName": "Lesson1Homework",
-      "projectPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\obj\\",
+      "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
+      "packagesPath": "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\LookAtMyHorse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13151,7 +13170,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj": {
+              "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
