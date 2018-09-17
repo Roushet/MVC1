@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework.Domain.Models.Base
 {
-    interface IOrderedEntity
+    public interface IOrderedEntity
     {
         int Order { get; set; }
     }

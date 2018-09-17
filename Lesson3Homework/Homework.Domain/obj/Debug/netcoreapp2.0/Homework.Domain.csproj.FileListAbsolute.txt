@@ -1,0 +1,9 @@
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\bin\Debug\netcoreapp2.0\Homework.Domain.deps.json
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\bin\Debug\netcoreapp2.0\Homework.Domain.dll
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.csprojAssemblyReference.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.csproj.CoreCompileInputs.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.AssemblyInfoInputs.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.AssemblyInfo.cs
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.dll
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.pdb

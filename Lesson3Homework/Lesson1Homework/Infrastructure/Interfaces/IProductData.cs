@@ -6,7 +6,7 @@ using Homework.Domain.Models;
 
 namespace Lesson1Homework.Infrastructure.Interfaces
 {
-    interface IProductData
+    public interface IProductData
     {
         IEnumerable<Section> GetSections();
         IEnumerable<Brand> GetBrands();
