@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Lesson1Homework.Infrastructure;
+using Lesson1Homework.Infrastructure.InMemory;
 using Lesson1Homework.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +30,7 @@ namespace Lesson1Homework
             services.AddMvc();
 
             services.AddSingleton<IEmployeesData, InMemoryEmployees>();
+            services.AddSingleton<IProductData, InMemoryProductData>();
 
         }
 

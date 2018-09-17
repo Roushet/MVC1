@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework.Domain.Models.Base
 {
-    class NamedEntity : INamedEntity
+    public class NamedEntity : INamedEntity
     {
         public string Name { get; set; }
         public int Id { get; set; }
