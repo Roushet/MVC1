@@ -7,3 +7,12 @@ G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homewor
 G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.AssemblyInfo.cs
 G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.dll
 G:\HW-Repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.pdb
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\bin\Debug\netcoreapp2.0\Homework.Domain.deps.json
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\bin\Debug\netcoreapp2.0\Homework.Domain.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.csprojResolveAssemblyReference.cache
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.csproj.CoreCompileInputs.cache
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.AssemblyInfoInputs.cache
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.AssemblyInfo.cs
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.Domain\obj\Debug\netcoreapp2.0\Homework.Domain.pdb

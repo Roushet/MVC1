@@ -75,5 +75,17 @@ namespace Lesson1Homework.Controllers
             return RedirectToAction(nameof(employeeView));
         }
 
+        [Route("delete/{id}")]
+        public IActionResult Delete(EmployeeView employeeView)
+        {
+            var emp = _employees.GetById(employeeView.Id);
+            if (ReferenceEquals(emp, null))
+                return NotFound();
+
+            _employees.Delete(employeeView.Id);
+
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }
