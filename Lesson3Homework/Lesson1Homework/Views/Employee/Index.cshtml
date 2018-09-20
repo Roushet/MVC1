@@ -8,16 +8,21 @@
     <title>EmployeeView</title>
 </head>
 <body>
+    <hr />
+    <a asp-action="Edit" class="btn btn-success">Добавить</a>
+    <hr />
     <table border="1" width="80%" style="margin-left:auto; margin-right:auto">
         @foreach (var item in Model)
         {
         <tr>
-            <td><a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a></td>
+            <td><a asp-action="edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a></td>
             <td>@item.FirstName</td>
             <td>@item.Patronymic</td>
             <td>@item.Surname</td>
             <td>@item.Age</td>
             <td>@Html.ActionLink("Детали", "Details", new { id = item.Id })</td>
+            <td><a asp-action="Delete"asp-route-id="@item.Id"><i class="fa fa-cut"></i></a>
+            </td>
         </tr>
         }
     </table>

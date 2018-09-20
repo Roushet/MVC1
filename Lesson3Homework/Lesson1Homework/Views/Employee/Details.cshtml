@@ -1,22 +1,35 @@
 ﻿@model Lesson1Homework.Models.EmployeeView
 
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details of @Model.FirstName @Model.Surname</title>
-</head>
 <body>
-    <p>@Model.FirstName</p>
+    <hr />
+    <a asp-action="Index" class="btn btn-success">К списку</a>
+    <hr />
 
-    <p>@Model.Patronymic</p>
 
-    <p>@Model.Surname</p>
+    <table border="1" width="80%" style="margin-left:auto; margin-right:auto">
+        <tr>
+            <td>Имя</td>
+            <td>@Model.FirstName</td>
+        </tr>
 
-    <p>@Model.Age</p>
+        <tr>
+            <td>Отчество</td>
+            <td>@Model.Patronymic</td>
+        </tr>
 
-    <p>@Html.ActionLink("Список", "Index")</p>
+        <tr>
+            <td>Фамилия</td>
+            <td>@Model.Surname</td>
+        </tr>
+
+        <tr>
+            <td>Возраст</td>
+            <td>@Model.Age</td>
+        </tr>
+
+    </table>
+
+    @*<a href="/cancel/1" class="btn btn-default">Cancel</a>*@
+
 </body>
-</html>

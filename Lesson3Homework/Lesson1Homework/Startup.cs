@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Lesson1Homework.Infrastructure;
+using Lesson1Homework.Infrastructure.InMemory;
 using Lesson1Homework.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
 
 namespace Lesson1Homework
 {
@@ -29,6 +31,10 @@ namespace Lesson1Homework
             services.AddMvc();
 
             services.AddSingleton<IEmployeesData, InMemoryEmployees>();
+            services.AddSingleton<IProductData, InMemoryProductData>();
+            
+            //не могу пробросить ссылку на проект Homework.Dal
+            services.AddDbContext<HomeworkContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         }
 

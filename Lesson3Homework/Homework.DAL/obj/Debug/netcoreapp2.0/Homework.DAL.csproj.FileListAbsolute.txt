@@ -1,0 +1,12 @@
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.deps.json
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.csproj.CoreCompileInputs.cache
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.AssemblyInfoInputs.cache
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.AssemblyInfo.cs
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.runtimeconfig.json
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.runtimeconfig.dev.json
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.pdb
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.pdb
