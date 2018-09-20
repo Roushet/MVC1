@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace Lesson1Homework
 {
     public class Startup
@@ -31,6 +32,9 @@ namespace Lesson1Homework
 
             services.AddSingleton<IEmployeesData, InMemoryEmployees>();
             services.AddSingleton<IProductData, InMemoryProductData>();
+            
+            //не могу пробросить ссылку на проект Homework.Dal
+            services.AddDbContext<HomeworkContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         }
 

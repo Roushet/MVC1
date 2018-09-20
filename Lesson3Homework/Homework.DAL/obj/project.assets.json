@@ -949,6 +949,20 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "Homework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.3",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.3"
+        },
+        "compile": {
+          "bin/placeholder/Homework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Homework.Domain.dll": {}
+        }
       }
     }
   },
@@ -3549,10 +3563,16 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "Homework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Homework.Domain/Homework.Domain.csproj",
+      "msbuildProject": "../Homework.Domain/Homework.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Homework.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.3",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.3",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -3568,11 +3588,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj",
-      "projectName": "Homework.Domain",
-      "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj",
+      "projectUniqueName": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj",
+      "projectName": "Homework.DAL",
+      "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj",
       "packagesPath": "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\obj\\",
+      "outputPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3590,7 +3610,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj": {
+              "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
