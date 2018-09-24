@@ -5030,6 +5030,23 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "Homework.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Homework.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Homework.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Homework.DAL.dll": {}
+        }
+      },
       "Homework.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -13121,6 +13138,11 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "Homework.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Homework.DAL/Homework.DAL.csproj",
+      "msbuildProject": "../Homework.DAL/Homework.DAL.csproj"
+    },
     "Homework.Domain/1.0.0": {
       "type": "project",
       "path": "../Homework.Domain/Homework.Domain.csproj",
@@ -13129,6 +13151,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Homework.DAL >= 1.0.0",
       "Homework.Domain >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.0",
@@ -13169,6 +13192,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj": {
+              "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj"
+            },
             "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj": {
               "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj"
             }

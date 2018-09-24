@@ -10,6 +10,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Homework.DAL;
+//Без этого не работает UseSqlServer 
+//https://github.com/aspnet/EntityFrameworkCore/issues/7891
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Lesson1Homework
@@ -32,8 +36,9 @@ namespace Lesson1Homework
 
             services.AddSingleton<IEmployeesData, InMemoryEmployees>();
             services.AddSingleton<IProductData, InMemoryProductData>();
-            
-            //не могу пробросить ссылку на проект Homework.Dal
+
+            //Error CS1061  'DbContextOptionsBuilder' does not contain a definition for 'UseSqlServer' and no extension method 'UseSqlServer' accepting a first argument of type 'DbContextOptionsBuilder' could be found
+            //using Microsoft.EntityFrameworkCore;
             services.AddDbContext<HomeworkContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         }

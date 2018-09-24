@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Homework.Domain\Homework.Domain.csproj" />
+    <ProjectReference Include="..\Homework.DAL\Homework.DAL.csproj" />
   </ItemGroup>
 
 </Project>

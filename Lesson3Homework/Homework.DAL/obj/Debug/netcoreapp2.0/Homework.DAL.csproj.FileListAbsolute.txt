@@ -6,4 +6,6 @@ D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.pdb
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.dll
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.pdb
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.csprojResolveAssemblyReference.cache

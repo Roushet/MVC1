@@ -42,3 +42,7 @@ G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1
 G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.dll
 G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.pdb
 G:\HW-Repos\MVC1\Lesson3Homework\Lesson1Homework\obj\Debug\netcoreapp2.0\Lesson1Homework.csprojAssemblyReference.cache
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Lesson1Homework\bin\Debug\netcoreapp2.0\Homework.DAL.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Lesson1Homework\bin\Debug\netcoreapp2.0\Homework.Domain.dll
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Lesson1Homework\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
+D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Lesson1Homework\bin\Debug\netcoreapp2.0\Homework.DAL.pdb
