@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Homework.Domain.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Homework.DAL
 {
-    public class HomeworkContext : DbContext
+    public class HomeworkContext : IdentityDbContext<User>
     {
         public HomeworkContext(DbContextOptions options) : base(options) { }
 
