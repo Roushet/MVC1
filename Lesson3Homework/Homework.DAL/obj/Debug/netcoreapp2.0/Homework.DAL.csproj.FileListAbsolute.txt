@@ -9,3 +9,15 @@ D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.dll
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
 D:\Users\LookAtMyHorse\source\repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.csprojResolveAssemblyReference.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.deps.json
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.dll
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.DAL.pdb
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.dll
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\bin\Debug\netcoreapp2.0\Homework.Domain.pdb
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.csprojAssemblyReference.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.csproj.CoreCompileInputs.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.AssemblyInfoInputs.cache
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.AssemblyInfo.cs
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.csproj.CopyComplete
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.dll
+G:\HW-Repos\MVC1\Lesson3Homework\Homework.DAL\obj\Debug\netcoreapp2.0\Homework.DAL.pdb
