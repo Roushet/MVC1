@@ -13160,26 +13160,23 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
+      "projectUniqueName": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
       "projectName": "Lesson1Homework",
-      "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
-      "packagesPath": "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\obj\\",
+      "projectPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\Lesson1Homework.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Lesson1Homework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\Users\\LookAtMyHorse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13192,11 +13189,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj": {
-              "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj"
+            "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj": {
+              "projectPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.DAL\\Homework.DAL.csproj"
             },
-            "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj": {
-              "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj"
+            "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj": {
+              "projectPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj"
             }
           }
         }
