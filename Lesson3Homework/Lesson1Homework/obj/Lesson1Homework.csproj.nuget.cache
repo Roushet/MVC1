@@ -1,9 +1,5 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "dgSpecHash": "S/09nSTs4ExR7Zq5f7guV397RbxAJnkmWb9WbtnAYjeYBXf9y7dTtKMtZr2/wbebh9Ys/98xKPWtswk4fNJHGg==",
-=======
-  "dgSpecHash": "glRHC1nQSwQJS16MIUTatXlAfalwqEJpPPLddlnjTytetsHGQC/IZR7g1ukYBm79LYfd9ENsFr3YfNsV33ZxIg==",
->>>>>>> 5dfd68f... Начал домашку 7го урока. Добавил пакет для бандлов и конфиг
+  "dgSpecHash": "zsYg0Wh/o4LwRbAugFhdPmc4EtFuS43SxKjsGBxN4GYyrsJtZ/IEBcgGBuNsTpa7KJIq1IlYJGJ35YRJVlN7lQ==",
   "success": true
 }
