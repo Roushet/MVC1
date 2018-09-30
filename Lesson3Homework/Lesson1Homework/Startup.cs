@@ -16,6 +16,7 @@ using Homework.DAL;
 using Microsoft.EntityFrameworkCore;
 using Homework.Domain.Models;
 using Microsoft.AspNetCore.Identity;
+using Lesson1Homework.Infrastructure.Implementations.SQL;
 
 namespace Lesson1Homework
 {
@@ -37,6 +38,8 @@ namespace Lesson1Homework
 
             services.AddSingleton<IEmployeesData, InMemoryEmployees>();
             services.AddSingleton<IProductData, InMemoryProductData>();
+
+            services.AddScoped<IProductData, SqlProductData>();
 
             //Error CS1061  'DbContextOptionsBuilder' does not contain a definition for 'UseSqlServer' and no extension method 'UseSqlServer' accepting a first argument of type 'DbContextOptionsBuilder' could be found
             //using Microsoft.EntityFrameworkCore;

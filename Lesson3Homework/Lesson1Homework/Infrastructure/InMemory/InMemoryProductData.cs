@@ -12,6 +12,7 @@ namespace Lesson1Homework.Infrastructure.InMemory
     {
         private readonly List<Section> _sections;
         private readonly List<Brand> _brands;
+        private readonly List<Product> _products;
 
         public InMemoryProductData()
         {
@@ -74,6 +75,20 @@ new Section()
                 }
 
             };
+
+            _products = new List<Product>() {
+                new Product()
+                {
+                    Id = 1,
+                    Name = "Ariel Automat",
+                    Order = 1,
+                    Price = 100,
+                    BrandId = 1,
+                    SectionId = 1,
+                    ImageUrl ="\\1.jpg",
+                }
+
+            };
         }
 
         public IEnumerable<Brand> GetBrands()
@@ -85,5 +100,11 @@ new Section()
         {
             return _sections;
         }
+        public IEnumerable<Product> GetProducts()
+        {
+            return _products;
+        }
+
     }
 }
+

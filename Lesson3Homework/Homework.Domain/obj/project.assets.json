@@ -4005,23 +4005,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj",
+      "projectUniqueName": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj",
       "projectName": "Homework.Domain",
-      "projectPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "G:\\HW-Repos\\MVC1\\Lesson3Homework\\Homework.Domain\\obj\\",
+      "projectPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\Homework.Domain.csproj",
+      "packagesPath": "D:\\Users\\LookAtMyHorse\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\LookAtMyHorse\\source\\repos\\MVC1\\Lesson3Homework\\Homework.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\LookAtMyHorse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
